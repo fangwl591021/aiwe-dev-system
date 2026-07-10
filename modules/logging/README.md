@@ -1,5 +1,27 @@
 # Logging Module
 
-Status: Placeholder / Not yet extracted
+Status: Experimental
+Verified projects: BookingOS only
+Production reusable: No
 
-本目錄未放入正式模組程式碼。未來只有在 Log 格式、敏感資料遮蔽、錯誤追蹤與查詢方式都經真實專案確認後，才可抽離到此。
+This module is not production reusable yet. It has not been verified in at least two products.
+
+## Allowed Content
+
+- Documentation-first notes.
+- Interface assumptions.
+- Environment variable names without values.
+- Acceptance checks.
+- Known risks.
+
+## Forbidden Content
+
+- BookingOS source code.
+- Secret, token, LIFF ID, API key, or password.
+- Production customer data.
+- Production tenant data.
+- Complete migration code.
+
+## Promotion Gate
+
+Promote this module only after it is verified in at least two real products and has installation notes, dependencies, environment variables, usage examples, tests or verification steps, and clear limits.
